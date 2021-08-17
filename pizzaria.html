@@ -14,20 +14,16 @@
         background-color: #FFFFFF;
         background-size: 100%;
         width: 860px;
-        margin-left: 600px;
         height: 599px;
-        top: -61px;
-        left: 4174px;
-
         background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .header h1 {
         background-color: rgba(0, 0, 0, 0.6);
         width: 860px;
         color: #FFFFFF;
-        position: absolute;
-        margin-left: 600px;
         margin: 0px;
         font-family: Amatic SC;
         font-style: normal;
@@ -56,29 +52,23 @@
     }
 
     .about {
-        position: relative;
-        background-color: #E5E5E5;
-        ;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        width: 860px;
+        background-color: #FFFFFF;
         background-size: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .onepage-restaurant {
-        position: absolute;
-        margin-left: 600px;
+
         width: 397px;
-        height: 245px;
-        left: 217px;
         top: 236px;
     }
 
     .about h1 {
-        position: absolute;
-        margin-left: 600px;
-        width: 63px;
-        height: 45px;
-        left: 398px;
-        top: 0px;
-
         font-family: Amatic SC;
         font-style: normal;
         font-weight: normal;
@@ -88,14 +78,8 @@
     }
 
     .about p {
-        position: relative;
-        margin-left: 600px;
-        position: absolute;
-        width: 419px;
-        height: 69px;
-        left: 220px;
-        top: 59px;
-        
+        padding: 5px;
+        max-width: 419px;
         font-family: Amatic SC;
         font-style: normal;
         font-weight: normal;
@@ -104,35 +88,55 @@
 
         color: #000000;
     }
-    .about br{
-   display: block;
-   margin: 10px 0;
+
+    .local {
+        background-image: url('map.jpg');
+        background-color: #FFFFFF;
+        background-size: 100%;
+        width: 860px;
+        background-repeat: no-repeat;
+        margin-left: auto;
+        margin-right: auto;
+        height: 532px;
     }
 </style>
 
 <body>
+    <section class="container">
     <section class="header">
         <h1><a href="#">HOME</a> <a href="#">ABOUT</a> <a href="#">MENU</a> <a href="#">WHERE</a></h1>
     </section>
+
     <section class="about">
-        <h1>ABOUT</h1>
-        <p>
-            The pizza restaurant was founded in lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
-            lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor . <br>
-            The chef? Mr. Italiano Himself<br>
-            We are proud of our interiors 
-        </p>
-        <img src="onepage_restaurant.jpg" alt="Restaurante" class="onepage-restaurant">
+        <div>
+            <h1>ABOUT</h1>
+            <p>The pizza restaurant was founded in lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum
+                dolor
+                lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor .</p>
+            <p>The chef? Mr. Italiano Himself</p>
+            <p>We are proud of our interiors</p>   
+        </div>
+        <div>
+            <img src="onepage_restaurant.jpg" alt="Restaurante" class="onepage-restaurant">
+        </div>
+        <div>
+            <p>Opening Hours</p>
+        </div>
+        <div style="display:flex; align-items: flex-start">
+            <div>
+                <p>Mon & Tue Closed</p>
+                <p>Wednesday 10.00 - 24.00</p>
+                <p>Thursday 10.00 - 24.00</p>
+            </div>
+            <div>
+                <p>Friday 10.00 - 12.00</p>
+                <p>Saturday 10.00 - 23.00</p>
+                <p>Sunday closed</p>
+            </div>
+        </div>
     </section>
-
-
-    <section>
-        <!-- <img src="map.jpg" alt="Localização" class="map"> -->
+    <section class="local">
     </section>
-
-
-
-
+</section>
 </body>
-
 </html>
