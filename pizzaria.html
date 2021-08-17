@@ -1,38 +1,138 @@
 <!DOCTYPE html>
 <html>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css">
 <style>
-    .pizza-style{               
+    /* .pizza1 {
         position: absolute;
         width: 860px;
         height: 523px;
         left: 0px;
         top: 45px;
-    }
-    h1{
-        position: absolute;
-        height: 21px;
-        top: 9px;
-        left: 120px;
-        word-spacing: 152px;
+    } */
+    .header {
+        background-image: url('header.jpg');
+        background-color: #FFFFFF;
+        background-size: 100%;
+        width: 860px;
+        margin-left: 600px;
+        height: 599px;
+        top: -61px;
+        left: 4174px;
 
-        font-family: Inconsolata;
+        background-repeat: no-repeat;
+    }
+
+    .header h1 {
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 860px;
+        color: #FFFFFF;
+        position: absolute;
+        margin-left: 600px;
+        margin: 0px;
+        font-family: Amatic SC;
         font-style: normal;
         font-weight: 300;
         font-size: 20px;
-        line-height: 21px;
-    }
- 
-    body{
-        background-color: #FFFFFF;
+        text-align: left;
+        word-spacing: 20px;
     }
 
+    .header a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .header a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .header a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .about {
+        position: relative;
+        background-color: #E5E5E5;
+        ;
+        background-size: 100%;
+    }
+
+    .onepage-restaurant {
+        position: absolute;
+        margin-left: 600px;
+        width: 397px;
+        height: 245px;
+        left: 217px;
+        top: 236px;
+    }
+
+    .about h1 {
+        position: absolute;
+        margin-left: 600px;
+        width: 63px;
+        height: 45px;
+        left: 398px;
+        top: 0px;
+
+        font-family: Amatic SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+    }
+
+    .about p {
+        position: relative;
+        margin-left: 600px;
+        position: absolute;
+        width: 419px;
+        height: 69px;
+        left: 220px;
+        top: 59px;
+        
+        font-family: Amatic SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 23px;
+
+        color: #000000;
+    }
+    .about br{
+   display: block;
+   margin: 10px 0;
+    }
 </style>
+
 <body>
-    <div>
-        <h1>Home About Menu Where</h1>
-    
-        <img src="header.jpg" alt="pizza" class="pizza-style">    
-    </div>
-   
+    <section class="header">
+        <h1><a href="#">HOME</a> <a href="#">ABOUT</a> <a href="#">MENU</a> <a href="#">WHERE</a></h1>
+    </section>
+    <section class="about">
+        <h1>ABOUT</h1>
+        <p>
+            The pizza restaurant was founded in lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor
+            lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor . <br>
+            The chef? Mr. Italiano Himself<br>
+            We are proud of our interiors 
+        </p>
+        <img src="onepage_restaurant.jpg" alt="Restaurante" class="onepage-restaurant">
+    </section>
+
+
+    <section>
+        <!-- <img src="map.jpg" alt="Localização" class="map"> -->
+    </section>
+
+
+
+
 </body>
+
 </html>
