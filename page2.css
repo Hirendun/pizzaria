@@ -88,7 +88,7 @@
 }
 
 .menu h1 {
-    text-align: center;
+    text-align: flex-start;
     font-family: Amatic SC;
     font-style: normal;
     font-weight: normal;
@@ -166,21 +166,6 @@
     line-height: 25px;
 }
 
-.new {
-    position: absolute;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-left: 38px;
-    margin-right: 900px;
-    margin-top: -30px;
-    background-color: rgb(122, 122, 122);
-    color: white;
-    border-radius: 3px;
-    line-height: 25px;
-}
-
 .popular {
     position: absolute;
     padding-top: 1px;
@@ -188,21 +173,6 @@
     padding-left: 3px;
     padding-right: 3px;
     margin-left: 50px;
-    margin-right: 900px;
-    margin-top: 0px;
-    background-color: rgb(122, 122, 122);
-    color: white;
-    border-radius: 3px;
-    line-height: 25px;
-}
-
-.seasonal {
-    position: absolute;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 3px;
-    padding-right: 3px;
-    margin-left: 73px;
     margin-right: 900px;
     margin-top: 0px;
     background-color: rgb(122, 122, 122);
