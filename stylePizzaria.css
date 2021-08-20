@@ -1,0 +1,171 @@
+/* soft reset do css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    .header {
+        background-image: url('img/header.jpg');
+        background-color: #FFFFFF;
+        background-size: 100%;
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        font-family: Amatic SC;
+        justify-content: center;
+    }
+
+    .header h1 {
+        background-color: rgba(0, 0, 0, 0.6);
+        position:absolute;
+        top: 0px;
+        left: 0px;
+        width: 100vw;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        text-align: left;
+        word-spacing: 20px;
+    }
+    
+    .header a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .header a:visited {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .header a:hover {
+        color: red;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    .menu {
+        /* configuração de design de cada item do menu. */
+        display: flex;
+        flex-direction: column;
+      	background-color: #ffffff2a;
+        background-size: 100%;
+        width: 50vw;
+      	align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: Amatic SC;
+        font-size: 20px;
+        line-height: 30px;
+        background-color: white;
+    }
+  	.menu h1{
+  		text-align: center;
+        font-family: Amatic SC;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 36px;
+        line-height: 45px;
+        color: #000000;
+  	}
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-family: Amatic SC;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        color:#FFFFFF;
+        background-color: rgb(139,95,91);
+        background-size: 100%;
+    }
+
+    .onepage-restaurant {
+
+        width: 50vw;
+        height: auto;
+        max-width: 700px;
+    }
+
+    .about h1 {
+        text-align: center;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 45px;
+        margin: 10px;
+    }
+
+    .about p {
+        margin: 10px;
+        max-width: 700px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    .pusheenfofinho{
+        border-radius: 50%; 
+        width: 13vw; 
+        max-width: 150px;
+        height: auto; 
+    }
+
+    .local {
+        background-image: url('img/map.jpg');
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .contact {
+        display: flex;
+     	width:100vw;
+        height:100vh;
+        font-family: Amatic SC;
+        background-color: rgb(108, 122, 129);
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        color:#FFFFFF;
+    }
+
+    .contact button {
+        text-align: center;
+        font-size: 22px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: Amatic SC;
+        border-color: rgba(45, 45, 45, 0.05);
+        box-shadow: 0, 0, 0, 0;
+        width: 50vw;
+        margin: 5px;
+        height: 50px;
+    }
+
+    .contact input {
+        font-size: 22px;
+        background-color: rgb(255, 255, 255);
+        color: black;
+        font-family: Amatic SC;
+        border-color: rgba(45, 45, 45, 0.05);
+        box-shadow: 0, 0, 0, 0;
+
+        width: 50vw;
+        margin:5px;
+        height: 50px;
+    }
+
+
