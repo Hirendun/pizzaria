@@ -10,7 +10,6 @@
 <body onload="switchToPizza()">
     <script src="pageSwitch.js"></script>
     </script>
-    <section class="container">
         <section class="header">
                 <h1><a href="#">HOME</a> <a href="#aboutId">ABOUT</a> <a href="#menuId">MENU</a> <a href="#contactId">CONTACT</a></h1>  
             <div style="display:flex; align-items: center; text-align: center; flex-direction: column; color: #FFFFFF;">
@@ -18,9 +17,7 @@
                     <p style="width: 200px; font-size: 30px; background-color: rgb(0, 0, 0);">Let me see the menu</p>
             </div>
         </section>
-        <section class="backgroundMenu">
-
-            <section class="menu">
+            <section id="menuId" class="menu">
                 <h1 style="font-size:50px;">The Menu</h1>
                 <div class="menuBorder">
                     <div>
@@ -139,13 +136,10 @@
                 </div>
 
             </section>
-        </section>
         <section id="aboutId" class="about">
             <div>
                 <h1>ABOUT<br><br></h1>
-                <p>The pizza restaurant was founded in lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum
-                    dolor
-                    lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor .<br><br></p>
+                <p style="min-width: 500px;">The pizza restaurant was founded in lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor .<br><br></p>
                 <div style="display :flex; justify-content: space-between;">
                     <div style="flex-direction: column; align-items: center;">
                         <p >The chef? Mr. Italiano Himself<br><br></p>
@@ -174,11 +168,11 @@
         <section class="local">
         </section>
         <section id="contactId" class="contact">
-            <div style="font-size: 50px;">
-                    <img class="pusheenfofinho" src="img/pusheen-phone.gif"> 
-                    <h1>Contact</h1>
+            <div style="font-size: 50px;  text-align: center;" >
+                <h1>Contact</h1>
+                    <img class="pusheenfofinho" src="img/pusheen-phone.gif" style="min-width: 150px;">  
             </div>
-            <div style="font-size: 30px; max-width: 50vw;">
+            <div style="font-size: 30px; max-width: 50vw; min-width: 600px;">
                 <p>Find us at some address at some place or call us at +55 51 98175-5239<br><br></p>
                 <p>FYI! We offer full-service catering fot any event, large or small. We 
                     understand your needs and will cater the food to satisfy the biggest criteria
