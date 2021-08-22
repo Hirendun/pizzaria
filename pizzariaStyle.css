@@ -9,7 +9,7 @@
     background-color: #FFFFFF;
     background-size: 100%;
     width: 100vw;
-    height: 80vh;
+    height: auto;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,7 @@
     font-size: 20px;
     margin-top: 350px;
     margin-left: 100px;
+    margin-bottom: 50px;
     padding: 5px 4px 4px 5px;
     border-radius: 5px;
     color: white;
@@ -63,7 +64,12 @@
 }
 
 .backgroundMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: black;
+    background-size: 100%;
+    padding-bottom: 50px;
 }
 
 .menuBorder {
@@ -76,7 +82,7 @@
     /* configuração de design de cada item do menu. */
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: auto;
     width: 50vw;
     align-items: center;
     justify-content: flex-start;
@@ -240,7 +246,7 @@
     font-family: Amatic SC;
     align-items: center;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     color: #FFFFFF;
     background-color: rgb(139, 95, 91);
     background-size: 100%;
@@ -315,7 +321,7 @@
 .contact {
     display: flex;
     width: 100vw;
-    height: 100vh;
+    height: auto;
     font-family: Amatic SC;
     background-color: rgb(108, 122, 129);
     font-style: normal;
