@@ -1,16 +1,34 @@
 function switchToPizza() {
+    // pusheen
+    show("pusheenPizza");
+    hide("pusheenSalads");
+    hide("pusheenStarter")
+
+    // menu
     show("pizza");
     hide("salads");
     hide("starter");
 }
 
 function switchToSalads() {
+    // pusheen
+    show("pusheenSalads");
+    hide("pusheenPizza");
+    hide("pusheenStarter");
+
+    // menu
     show("salads");
     hide("pizza");
     hide("starter")
 }
 
 function switchToStarter() {
+    // pusheen
+    show("pusheenStarter");
+    hide("pusheenPizza");
+    hide("pusheenSalads")
+
+    // menu
     show("starter");
     hide("salads");
     hide("pizza");
